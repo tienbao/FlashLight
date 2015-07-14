@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176261B11B45B8E4005796DD /* compassLED_arc_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762617C1B45B8E4005796DD /* compassLED_arc_color@2x.png */; };
+		176261B21B45B8E4005796DD /* compassLED_arc_morse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762617D1B45B8E4005796DD /* compassLED_arc_morse@2x.png */; };
+		176261B31B45B8E4005796DD /* compassLED_arc_rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762617E1B45B8E4005796DD /* compassLED_arc_rocket@2x.png */; };
+		176261B41B45B8E4005796DD /* compassLED_arc_rocket_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762617F1B45B8E4005796DD /* compassLED_arc_rocket_highlight@2x.png */; };
+		176261B51B45B8E4005796DD /* compassLED_arc_rocket_indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261801B45B8E4005796DD /* compassLED_arc_rocket_indicator@2x.png */; };
+		176261B61B45B8E4005796DD /* compassLED_background-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 176261811B45B8E4005796DD /* compassLED_background-568h@2x.jpg */; };
+		176261B71B45B8E4005796DD /* compassLED_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 176261821B45B8E4005796DD /* compassLED_background.jpg */; };
+		176261B81B45B8E4005796DD /* compassLED_background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 176261831B45B8E4005796DD /* compassLED_background@2x.jpg */; };
+		176261B91B45B8E4005796DD /* compassLED_background_tail_testuser-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 176261841B45B8E4005796DD /* compassLED_background_tail_testuser-568h@2x.jpg */; };
+		176261BA1B45B8E4005796DD /* compassLED_backgroundcover-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261851B45B8E4005796DD /* compassLED_backgroundcover-568h@2x.png */; };
+		176261BB1B45B8E4005796DD /* compassLED_backgroundcover.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261861B45B8E4005796DD /* compassLED_backgroundcover.png */; };
+		176261BC1B45B8E4005796DD /* compassLED_backgroundcover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261871B45B8E4005796DD /* compassLED_backgroundcover@2x.png */; };
+		176261BD1B45B8E4005796DD /* compassLED_brightness_adjustor.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261881B45B8E4005796DD /* compassLED_brightness_adjustor.png */; };
+		176261BE1B45B8E4005796DD /* compassLED_brightness_adjustor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261891B45B8E4005796DD /* compassLED_brightness_adjustor@2x.png */; };
+		176261BF1B45B8E4005796DD /* compassLED_brightness_adjustor_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762618A1B45B8E4005796DD /* compassLED_brightness_adjustor_bg.png */; };
+		176261C01B45B8E4005796DD /* compassLED_brightness_adjustor_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762618B1B45B8E4005796DD /* compassLED_brightness_adjustor_bg@2x.png */; };
+		176261C11B45B8E4005796DD /* compassLED_brightness_adjustor_not.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762618C1B45B8E4005796DD /* compassLED_brightness_adjustor_not.png */; };
+		176261C21B45B8E4005796DD /* compassLED_brightness_adjustor_not@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762618D1B45B8E4005796DD /* compassLED_brightness_adjustor_not@2x.png */; };
+		176261C31B45B8E4005796DD /* compassLED_brightness_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762618E1B45B8E4005796DD /* compassLED_brightness_indicator.png */; };
+		176261C41B45B8E4005796DD /* compassLED_brightness_indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762618F1B45B8E4005796DD /* compassLED_brightness_indicator@2x.png */; };
+		176261C51B45B8E4005796DD /* compassLED_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261901B45B8E4005796DD /* compassLED_button_down.png */; };
+		176261C61B45B8E4005796DD /* compassLED_button_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261911B45B8E4005796DD /* compassLED_button_down@2x.png */; };
+		176261C71B45B8E4005796DD /* compassLED_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261921B45B8E4005796DD /* compassLED_button_up.png */; };
+		176261C81B45B8E4005796DD /* compassLED_button_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261931B45B8E4005796DD /* compassLED_button_up@2x.png */; };
+		176261C91B45B8E4005796DD /* compassLED_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261941B45B8E4005796DD /* compassLED_color.png */; };
+		176261CA1B45B8E4005796DD /* compassLED_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261951B45B8E4005796DD /* compassLED_color@2x.png */; };
+		176261CB1B45B8E4005796DD /* compassLED_color_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261961B45B8E4005796DD /* compassLED_color_clicked.png */; };
+		176261CC1B45B8E4005796DD /* compassLED_color_clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261971B45B8E4005796DD /* compassLED_color_clicked@2x.png */; };
+		176261CD1B45B8E4005796DD /* compassLED_color_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261981B45B8E4005796DD /* compassLED_color_close.png */; };
+		176261CE1B45B8E4005796DD /* compassLED_color_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261991B45B8E4005796DD /* compassLED_color_close@2x.png */; };
+		176261CF1B45B8E4005796DD /* compassLED_compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762619A1B45B8E4005796DD /* compassLED_compass.png */; };
+		176261D01B45B8E4005796DD /* compassLED_compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762619B1B45B8E4005796DD /* compassLED_compass@2x.png */; };
+		176261D11B45B8E4005796DD /* compassLED_compass_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762619C1B45B8E4005796DD /* compassLED_compass_background.png */; };
+		176261D21B45B8E4005796DD /* compassLED_compass_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762619D1B45B8E4005796DD /* compassLED_compass_background@2x.png */; };
+		176261D31B45B8E4005796DD /* compassLED_compass_cap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762619E1B45B8E4005796DD /* compassLED_compass_cap.png */; };
+		176261D41B45B8E4005796DD /* compassLED_compass_cap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1762619F1B45B8E4005796DD /* compassLED_compass_cap@2x.png */; };
+		176261D51B45B8E4005796DD /* compassLED_Indicator_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A01B45B8E4005796DD /* compassLED_Indicator_Off.png */; };
+		176261D61B45B8E4005796DD /* compassLED_Indicator_Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A11B45B8E4005796DD /* compassLED_Indicator_Off@2x.png */; };
+		176261D71B45B8E4005796DD /* compassLED_Indicator_On.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A21B45B8E4005796DD /* compassLED_Indicator_On.png */; };
+		176261D81B45B8E4005796DD /* compassLED_Indicator_On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A31B45B8E4005796DD /* compassLED_Indicator_On@2x.png */; };
+		176261D91B45B8E4005796DD /* compassLED_morse.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A41B45B8E4005796DD /* compassLED_morse.png */; };
+		176261DA1B45B8E4005796DD /* compassLED_morse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A51B45B8E4005796DD /* compassLED_morse@2x.png */; };
+		176261DB1B45B8E4005796DD /* compassLED_morse_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A61B45B8E4005796DD /* compassLED_morse_clicked.png */; };
+		176261DC1B45B8E4005796DD /* compassLED_morse_clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A71B45B8E4005796DD /* compassLED_morse_clicked@2x.png */; };
+		176261DD1B45B8E4005796DD /* compassLED_morse_long.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A81B45B8E4005796DD /* compassLED_morse_long.png */; };
+		176261DE1B45B8E4005796DD /* compassLED_morse_long_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261A91B45B8E4005796DD /* compassLED_morse_long_grey.png */; };
+		176261DF1B45B8E4005796DD /* compassLED_morse_short.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261AA1B45B8E4005796DD /* compassLED_morse_short.png */; };
+		176261E01B45B8E4005796DD /* compassLED_morse_short_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261AB1B45B8E4005796DD /* compassLED_morse_short_grey.png */; };
+		176261E11B45B8E4005796DD /* compassLED_morse_slash.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261AC1B45B8E4005796DD /* compassLED_morse_slash.png */; };
+		176261E21B45B8E4005796DD /* compassLED_morse_slash_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261AD1B45B8E4005796DD /* compassLED_morse_slash_grey.png */; };
+		176261E31B45B8E4005796DD /* compassLED_strobe-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261AE1B45B8E4005796DD /* compassLED_strobe-568h@2x.png */; };
+		176261E41B45B8E4005796DD /* compassLED_strobe.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261AF1B45B8E4005796DD /* compassLED_strobe.png */; };
+		176261E51B45B8E4005796DD /* compassLED_strobe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176261B01B45B8E4005796DD /* compassLED_strobe@2x.png */; };
+		177003261B3BCFCA00379642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 177003251B3BCFCA00379642 /* main.m */; };
+		177003291B3BCFCA00379642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 177003281B3BCFCA00379642 /* AppDelegate.m */; };
+		1770032C1B3BCFCA00379642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770032B1B3BCFCA00379642 /* ViewController.m */; };
+		1770032F1B3BCFCA00379642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1770032D1B3BCFCA00379642 /* Main.storyboard */; };
+		177003311B3BCFCA00379642 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177003301B3BCFCA00379642 /* Images.xcassets */; };
+		177003341B3BCFCA00379642 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177003321B3BCFCA00379642 /* LaunchScreen.xib */; };
+		177003401B3BCFCA00379642 /* FlashlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770033F1B3BCFCA00379642 /* FlashlightTests.m */; };
+		1770034C1B3BD00C00379642 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770034A1B3BD00C00379642 /* MainViewController.m */; };
+		1770034D1B3BD00C00379642 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1770034B1B3BD00C00379642 /* MainViewController.xib */; };
+		36CA85381B53BC0B00F5DBA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CA85331B53BC0B00F5DBA8 /* Default-568h@2x.png */; };
+		36CA85391B53BC0B00F5DBA8 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CA85341B53BC0B00F5DBA8 /* Default-667h@2x.png */; };
+		36CA853A1B53BC0B00F5DBA8 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CA85351B53BC0B00F5DBA8 /* Default-736h@3x.png */; };
+		36CA853B1B53BC0B00F5DBA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CA85361B53BC0B00F5DBA8 /* Default.png */; };
+		36CA853C1B53BC0B00F5DBA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CA85371B53BC0B00F5DBA8 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1770033A1B3BCFCA00379642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177003181B3BCFCA00379642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1770031F1B3BCFCA00379642;
+			remoteInfo = Flashlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1762617C1B45B8E4005796DD /* compassLED_arc_color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_arc_color@2x.png"; sourceTree = "<group>"; };
+		1762617D1B45B8E4005796DD /* compassLED_arc_morse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_arc_morse@2x.png"; sourceTree = "<group>"; };
+		1762617E1B45B8E4005796DD /* compassLED_arc_rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_arc_rocket@2x.png"; sourceTree = "<group>"; };
+		1762617F1B45B8E4005796DD /* compassLED_arc_rocket_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_arc_rocket_highlight@2x.png"; sourceTree = "<group>"; };
+		176261801B45B8E4005796DD /* compassLED_arc_rocket_indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_arc_rocket_indicator@2x.png"; sourceTree = "<group>"; };
+		176261811B45B8E4005796DD /* compassLED_background-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "compassLED_background-568h@2x.jpg"; sourceTree = "<group>"; };
+		176261821B45B8E4005796DD /* compassLED_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = compassLED_background.jpg; sourceTree = "<group>"; };
+		176261831B45B8E4005796DD /* compassLED_background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "compassLED_background@2x.jpg"; sourceTree = "<group>"; };
+		176261841B45B8E4005796DD /* compassLED_background_tail_testuser-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "compassLED_background_tail_testuser-568h@2x.jpg"; sourceTree = "<group>"; };
+		176261851B45B8E4005796DD /* compassLED_backgroundcover-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_backgroundcover-568h@2x.png"; sourceTree = "<group>"; };
+		176261861B45B8E4005796DD /* compassLED_backgroundcover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_backgroundcover.png; sourceTree = "<group>"; };
+		176261871B45B8E4005796DD /* compassLED_backgroundcover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_backgroundcover@2x.png"; sourceTree = "<group>"; };
+		176261881B45B8E4005796DD /* compassLED_brightness_adjustor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_brightness_adjustor.png; sourceTree = "<group>"; };
+		176261891B45B8E4005796DD /* compassLED_brightness_adjustor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_brightness_adjustor@2x.png"; sourceTree = "<group>"; };
+		1762618A1B45B8E4005796DD /* compassLED_brightness_adjustor_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_brightness_adjustor_bg.png; sourceTree = "<group>"; };
+		1762618B1B45B8E4005796DD /* compassLED_brightness_adjustor_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_brightness_adjustor_bg@2x.png"; sourceTree = "<group>"; };
+		1762618C1B45B8E4005796DD /* compassLED_brightness_adjustor_not.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_brightness_adjustor_not.png; sourceTree = "<group>"; };
+		1762618D1B45B8E4005796DD /* compassLED_brightness_adjustor_not@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_brightness_adjustor_not@2x.png"; sourceTree = "<group>"; };
+		1762618E1B45B8E4005796DD /* compassLED_brightness_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_brightness_indicator.png; sourceTree = "<group>"; };
+		1762618F1B45B8E4005796DD /* compassLED_brightness_indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_brightness_indicator@2x.png"; sourceTree = "<group>"; };
+		176261901B45B8E4005796DD /* compassLED_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_button_down.png; sourceTree = "<group>"; };
+		176261911B45B8E4005796DD /* compassLED_button_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_button_down@2x.png"; sourceTree = "<group>"; };
+		176261921B45B8E4005796DD /* compassLED_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_button_up.png; sourceTree = "<group>"; };
+		176261931B45B8E4005796DD /* compassLED_button_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_button_up@2x.png"; sourceTree = "<group>"; };
+		176261941B45B8E4005796DD /* compassLED_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_color.png; sourceTree = "<group>"; };
+		176261951B45B8E4005796DD /* compassLED_color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_color@2x.png"; sourceTree = "<group>"; };
+		176261961B45B8E4005796DD /* compassLED_color_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_color_clicked.png; sourceTree = "<group>"; };
+		176261971B45B8E4005796DD /* compassLED_color_clicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_color_clicked@2x.png"; sourceTree = "<group>"; };
+		176261981B45B8E4005796DD /* compassLED_color_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_color_close.png; sourceTree = "<group>"; };
+		176261991B45B8E4005796DD /* compassLED_color_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_color_close@2x.png"; sourceTree = "<group>"; };
+		1762619A1B45B8E4005796DD /* compassLED_compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_compass.png; sourceTree = "<group>"; };
+		1762619B1B45B8E4005796DD /* compassLED_compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_compass@2x.png"; sourceTree = "<group>"; };
+		1762619C1B45B8E4005796DD /* compassLED_compass_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_compass_background.png; sourceTree = "<group>"; };
+		1762619D1B45B8E4005796DD /* compassLED_compass_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_compass_background@2x.png"; sourceTree = "<group>"; };
+		1762619E1B45B8E4005796DD /* compassLED_compass_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_compass_cap.png; sourceTree = "<group>"; };
+		1762619F1B45B8E4005796DD /* compassLED_compass_cap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_compass_cap@2x.png"; sourceTree = "<group>"; };
+		176261A01B45B8E4005796DD /* compassLED_Indicator_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_Indicator_Off.png; sourceTree = "<group>"; };
+		176261A11B45B8E4005796DD /* compassLED_Indicator_Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_Indicator_Off@2x.png"; sourceTree = "<group>"; };
+		176261A21B45B8E4005796DD /* compassLED_Indicator_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_Indicator_On.png; sourceTree = "<group>"; };
+		176261A31B45B8E4005796DD /* compassLED_Indicator_On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_Indicator_On@2x.png"; sourceTree = "<group>"; };
+		176261A41B45B8E4005796DD /* compassLED_morse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse.png; sourceTree = "<group>"; };
+		176261A51B45B8E4005796DD /* compassLED_morse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_morse@2x.png"; sourceTree = "<group>"; };
+		176261A61B45B8E4005796DD /* compassLED_morse_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_clicked.png; sourceTree = "<group>"; };
+		176261A71B45B8E4005796DD /* compassLED_morse_clicked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_morse_clicked@2x.png"; sourceTree = "<group>"; };
+		176261A81B45B8E4005796DD /* compassLED_morse_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_long.png; sourceTree = "<group>"; };
+		176261A91B45B8E4005796DD /* compassLED_morse_long_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_long_grey.png; sourceTree = "<group>"; };
+		176261AA1B45B8E4005796DD /* compassLED_morse_short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_short.png; sourceTree = "<group>"; };
+		176261AB1B45B8E4005796DD /* compassLED_morse_short_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_short_grey.png; sourceTree = "<group>"; };
+		176261AC1B45B8E4005796DD /* compassLED_morse_slash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_slash.png; sourceTree = "<group>"; };
+		176261AD1B45B8E4005796DD /* compassLED_morse_slash_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_morse_slash_grey.png; sourceTree = "<group>"; };
+		176261AE1B45B8E4005796DD /* compassLED_strobe-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_strobe-568h@2x.png"; sourceTree = "<group>"; };
+		176261AF1B45B8E4005796DD /* compassLED_strobe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassLED_strobe.png; sourceTree = "<group>"; };
+		176261B01B45B8E4005796DD /* compassLED_strobe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compassLED_strobe@2x.png"; sourceTree = "<group>"; };
+		177003201B3BCFCA00379642 /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177003241B3BCFCA00379642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177003251B3BCFCA00379642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		177003271B3BCFCA00379642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		177003281B3BCFCA00379642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1770032A1B3BCFCA00379642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1770032B1B3BCFCA00379642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1770032E1B3BCFCA00379642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		177003301B3BCFCA00379642 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		177003331B3BCFCA00379642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		177003391B3BCFCA00379642 /* FlashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1770033E1B3BCFCA00379642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1770033F1B3BCFCA00379642 /* FlashlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightTests.m; sourceTree = "<group>"; };
+		177003491B3BD00C00379642 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1770034A1B3BD00C00379642 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1770034B1B3BD00C00379642 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		36CA85331B53BC0B00F5DBA8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		36CA85341B53BC0B00F5DBA8 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		36CA85351B53BC0B00F5DBA8 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		36CA85361B53BC0B00F5DBA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		36CA85371B53BC0B00F5DBA8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1770031D1B3BCFCA00379642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177003361B3BCFCA00379642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1762617B1B45B8E4005796DD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				36CA85331B53BC0B00F5DBA8 /* Default-568h@2x.png */,
+				36CA85341B53BC0B00F5DBA8 /* Default-667h@2x.png */,
+				36CA85351B53BC0B00F5DBA8 /* Default-736h@3x.png */,
+				36CA85361B53BC0B00F5DBA8 /* Default.png */,
+				36CA85371B53BC0B00F5DBA8 /* Default@2x.png */,
+				1762617C1B45B8E4005796DD /* compassLED_arc_color@2x.png */,
+				1762617D1B45B8E4005796DD /* compassLED_arc_morse@2x.png */,
+				1762617E1B45B8E4005796DD /* compassLED_arc_rocket@2x.png */,
+				1762617F1B45B8E4005796DD /* compassLED_arc_rocket_highlight@2x.png */,
+				176261801B45B8E4005796DD /* compassLED_arc_rocket_indicator@2x.png */,
+				176261811B45B8E4005796DD /* compassLED_background-568h@2x.jpg */,
+				176261821B45B8E4005796DD /* compassLED_background.jpg */,
+				176261831B45B8E4005796DD /* compassLED_background@2x.jpg */,
+				176261841B45B8E4005796DD /* compassLED_background_tail_testuser-568h@2x.jpg */,
+				176261851B45B8E4005796DD /* compassLED_backgroundcover-568h@2x.png */,
+				176261861B45B8E4005796DD /* compassLED_backgroundcover.png */,
+				176261871B45B8E4005796DD /* compassLED_backgroundcover@2x.png */,
+				176261881B45B8E4005796DD /* compassLED_brightness_adjustor.png */,
+				176261891B45B8E4005796DD /* compassLED_brightness_adjustor@2x.png */,
+				1762618A1B45B8E4005796DD /* compassLED_brightness_adjustor_bg.png */,
+				1762618B1B45B8E4005796DD /* compassLED_brightness_adjustor_bg@2x.png */,
+				1762618C1B45B8E4005796DD /* compassLED_brightness_adjustor_not.png */,
+				1762618D1B45B8E4005796DD /* compassLED_brightness_adjustor_not@2x.png */,
+				1762618E1B45B8E4005796DD /* compassLED_brightness_indicator.png */,
+				1762618F1B45B8E4005796DD /* compassLED_brightness_indicator@2x.png */,
+				176261901B45B8E4005796DD /* compassLED_button_down.png */,
+				176261911B45B8E4005796DD /* compassLED_button_down@2x.png */,
+				176261921B45B8E4005796DD /* compassLED_button_up.png */,
+				176261931B45B8E4005796DD /* compassLED_button_up@2x.png */,
+				176261941B45B8E4005796DD /* compassLED_color.png */,
+				176261951B45B8E4005796DD /* compassLED_color@2x.png */,
+				176261961B45B8E4005796DD /* compassLED_color_clicked.png */,
+				176261971B45B8E4005796DD /* compassLED_color_clicked@2x.png */,
+				176261981B45B8E4005796DD /* compassLED_color_close.png */,
+				176261991B45B8E4005796DD /* compassLED_color_close@2x.png */,
+				1762619A1B45B8E4005796DD /* compassLED_compass.png */,
+				1762619B1B45B8E4005796DD /* compassLED_compass@2x.png */,
+				1762619C1B45B8E4005796DD /* compassLED_compass_background.png */,
+				1762619D1B45B8E4005796DD /* compassLED_compass_background@2x.png */,
+				1762619E1B45B8E4005796DD /* compassLED_compass_cap.png */,
+				1762619F1B45B8E4005796DD /* compassLED_compass_cap@2x.png */,
+				176261A01B45B8E4005796DD /* compassLED_Indicator_Off.png */,
+				176261A11B45B8E4005796DD /* compassLED_Indicator_Off@2x.png */,
+				176261A21B45B8E4005796DD /* compassLED_Indicator_On.png */,
+				176261A31B45B8E4005796DD /* compassLED_Indicator_On@2x.png */,
+				176261A41B45B8E4005796DD /* compassLED_morse.png */,
+				176261A51B45B8E4005796DD /* compassLED_morse@2x.png */,
+				176261A61B45B8E4005796DD /* compassLED_morse_clicked.png */,
+				176261A71B45B8E4005796DD /* compassLED_morse_clicked@2x.png */,
+				176261A81B45B8E4005796DD /* compassLED_morse_long.png */,
+				176261A91B45B8E4005796DD /* compassLED_morse_long_grey.png */,
+				176261AA1B45B8E4005796DD /* compassLED_morse_short.png */,
+				176261AB1B45B8E4005796DD /* compassLED_morse_short_grey.png */,
+				176261AC1B45B8E4005796DD /* compassLED_morse_slash.png */,
+				176261AD1B45B8E4005796DD /* compassLED_morse_slash_grey.png */,
+				176261AE1B45B8E4005796DD /* compassLED_strobe-568h@2x.png */,
+				176261AF1B45B8E4005796DD /* compassLED_strobe.png */,
+				176261B01B45B8E4005796DD /* compassLED_strobe@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		177003171B3BCFCA00379642 = {
+			isa = PBXGroup;
+			children = (
+				177003221B3BCFCA00379642 /* Flashlight */,
+				1770033C1B3BCFCA00379642 /* FlashlightTests */,
+				177003211B3BCFCA00379642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177003211B3BCFCA00379642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177003201B3BCFCA00379642 /* Flashlight.app */,
+				177003391B3BCFCA00379642 /* FlashlightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177003221B3BCFCA00379642 /* Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				1762617B1B45B8E4005796DD /* Resource */,
+				177003271B3BCFCA00379642 /* AppDelegate.h */,
+				177003281B3BCFCA00379642 /* AppDelegate.m */,
+				1770032A1B3BCFCA00379642 /* ViewController.h */,
+				1770032B1B3BCFCA00379642 /* ViewController.m */,
+				1770032D1B3BCFCA00379642 /* Main.storyboard */,
+				177003301B3BCFCA00379642 /* Images.xcassets */,
+				177003321B3BCFCA00379642 /* LaunchScreen.xib */,
+				177003231B3BCFCA00379642 /* Supporting Files */,
+				177003491B3BD00C00379642 /* MainViewController.h */,
+				1770034A1B3BD00C00379642 /* MainViewController.m */,
+				1770034B1B3BD00C00379642 /* MainViewController.xib */,
+			);
+			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		177003231B3BCFCA00379642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177003241B3BCFCA00379642 /* Info.plist */,
+				177003251B3BCFCA00379642 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1770033C1B3BCFCA00379642 /* FlashlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				1770033F1B3BCFCA00379642 /* FlashlightTests.m */,
+				1770033D1B3BCFCA00379642 /* Supporting Files */,
+			);
+			path = FlashlightTests;
+			sourceTree = "<group>";
+		};
+		1770033D1B3BCFCA00379642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1770033E1B3BCFCA00379642 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1770031F1B3BCFCA00379642 /* Flashlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177003431B3BCFCA00379642 /* Build configuration list for PBXNativeTarget "Flashlight" */;
+			buildPhases = (
+				1770031C1B3BCFCA00379642 /* Sources */,
+				1770031D1B3BCFCA00379642 /* Frameworks */,
+				1770031E1B3BCFCA00379642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashlight;
+			productName = Flashlight;
+			productReference = 177003201B3BCFCA00379642 /* Flashlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		177003381B3BCFCA00379642 /* FlashlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177003461B3BCFCA00379642 /* Build configuration list for PBXNativeTarget "FlashlightTests" */;
+			buildPhases = (
+				177003351B3BCFCA00379642 /* Sources */,
+				177003361B3BCFCA00379642 /* Frameworks */,
+				177003371B3BCFCA00379642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1770033B1B3BCFCA00379642 /* PBXTargetDependency */,
+			);
+			name = FlashlightTests;
+			productName = FlashlightTests;
+			productReference = 177003391B3BCFCA00379642 /* FlashlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177003181B3BCFCA00379642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TSO;
+				TargetAttributes = {
+					1770031F1B3BCFCA00379642 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K4CEZYHU9B;
+					};
+					177003381B3BCFCA00379642 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1770031F1B3BCFCA00379642;
+					};
+				};
+			};
+			buildConfigurationList = 1770031B1B3BCFCA00379642 /* Build configuration list for PBXProject "Flashlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177003171B3BCFCA00379642;
+			productRefGroup = 177003211B3BCFCA00379642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1770031F1B3BCFCA00379642 /* Flashlight */,
+				177003381B3BCFCA00379642 /* FlashlightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1770031E1B3BCFCA00379642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1770032F1B3BCFCA00379642 /* Main.storyboard in Resources */,
+				176261B41B45B8E4005796DD /* compassLED_arc_rocket_highlight@2x.png in Resources */,
+				176261E51B45B8E4005796DD /* compassLED_strobe@2x.png in Resources */,
+				176261D21B45B8E4005796DD /* compassLED_compass_background@2x.png in Resources */,
+				176261CE1B45B8E4005796DD /* compassLED_color_close@2x.png in Resources */,
+				176261B71B45B8E4005796DD /* compassLED_background.jpg in Resources */,
+				176261C01B45B8E4005796DD /* compassLED_brightness_adjustor_bg@2x.png in Resources */,
+				176261DA1B45B8E4005796DD /* compassLED_morse@2x.png in Resources */,
+				176261BD1B45B8E4005796DD /* compassLED_brightness_adjustor.png in Resources */,
+				176261D61B45B8E4005796DD /* compassLED_Indicator_Off@2x.png in Resources */,
+				176261D01B45B8E4005796DD /* compassLED_compass@2x.png in Resources */,
+				176261DE1B45B8E4005796DD /* compassLED_morse_long_grey.png in Resources */,
+				176261DC1B45B8E4005796DD /* compassLED_morse_clicked@2x.png in Resources */,
+				176261BB1B45B8E4005796DD /* compassLED_backgroundcover.png in Resources */,
+				176261C91B45B8E4005796DD /* compassLED_color.png in Resources */,
+				176261B81B45B8E4005796DD /* compassLED_background@2x.jpg in Resources */,
+				176261C51B45B8E4005796DD /* compassLED_button_down.png in Resources */,
+				176261BC1B45B8E4005796DD /* compassLED_backgroundcover@2x.png in Resources */,
+				176261D41B45B8E4005796DD /* compassLED_compass_cap@2x.png in Resources */,
+				176261DB1B45B8E4005796DD /* compassLED_morse_clicked.png in Resources */,
+				176261C31B45B8E4005796DD /* compassLED_brightness_indicator.png in Resources */,
+				176261CF1B45B8E4005796DD /* compassLED_compass.png in Resources */,
+				176261D11B45B8E4005796DD /* compassLED_compass_background.png in Resources */,
+				176261D51B45B8E4005796DD /* compassLED_Indicator_Off.png in Resources */,
+				176261B91B45B8E4005796DD /* compassLED_background_tail_testuser-568h@2x.jpg in Resources */,
+				176261C41B45B8E4005796DD /* compassLED_brightness_indicator@2x.png in Resources */,
+				176261E41B45B8E4005796DD /* compassLED_strobe.png in Resources */,
+				176261CA1B45B8E4005796DD /* compassLED_color@2x.png in Resources */,
+				176261D81B45B8E4005796DD /* compassLED_Indicator_On@2x.png in Resources */,
+				176261BF1B45B8E4005796DD /* compassLED_brightness_adjustor_bg.png in Resources */,
+				176261DF1B45B8E4005796DD /* compassLED_morse_short.png in Resources */,
+				176261C71B45B8E4005796DD /* compassLED_button_up.png in Resources */,
+				176261CD1B45B8E4005796DD /* compassLED_color_close.png in Resources */,
+				176261E01B45B8E4005796DD /* compassLED_morse_short_grey.png in Resources */,
+				176261C11B45B8E4005796DD /* compassLED_brightness_adjustor_not.png in Resources */,
+				36CA85381B53BC0B00F5DBA8 /* Default-568h@2x.png in Resources */,
+				176261D71B45B8E4005796DD /* compassLED_Indicator_On.png in Resources */,
+				177003341B3BCFCA00379642 /* LaunchScreen.xib in Resources */,
+				177003311B3BCFCA00379642 /* Images.xcassets in Resources */,
+				176261D91B45B8E4005796DD /* compassLED_morse.png in Resources */,
+				176261CC1B45B8E4005796DD /* compassLED_color_clicked@2x.png in Resources */,
+				176261BE1B45B8E4005796DD /* compassLED_brightness_adjustor@2x.png in Resources */,
+				176261E11B45B8E4005796DD /* compassLED_morse_slash.png in Resources */,
+				176261E21B45B8E4005796DD /* compassLED_morse_slash_grey.png in Resources */,
+				36CA853C1B53BC0B00F5DBA8 /* Default@2x.png in Resources */,
+				176261C61B45B8E4005796DD /* compassLED_button_down@2x.png in Resources */,
+				176261CB1B45B8E4005796DD /* compassLED_color_clicked.png in Resources */,
+				176261D31B45B8E4005796DD /* compassLED_compass_cap.png in Resources */,
+				36CA853A1B53BC0B00F5DBA8 /* Default-736h@3x.png in Resources */,
+				36CA85391B53BC0B00F5DBA8 /* Default-667h@2x.png in Resources */,
+				36CA853B1B53BC0B00F5DBA8 /* Default.png in Resources */,
+				176261B31B45B8E4005796DD /* compassLED_arc_rocket@2x.png in Resources */,
+				176261B51B45B8E4005796DD /* compassLED_arc_rocket_indicator@2x.png in Resources */,
+				176261E31B45B8E4005796DD /* compassLED_strobe-568h@2x.png in Resources */,
+				176261DD1B45B8E4005796DD /* compassLED_morse_long.png in Resources */,
+				176261C21B45B8E4005796DD /* compassLED_brightness_adjustor_not@2x.png in Resources */,
+				176261B21B45B8E4005796DD /* compassLED_arc_morse@2x.png in Resources */,
+				176261BA1B45B8E4005796DD /* compassLED_backgroundcover-568h@2x.png in Resources */,
+				176261B11B45B8E4005796DD /* compassLED_arc_color@2x.png in Resources */,
+				176261B61B45B8E4005796DD /* compassLED_background-568h@2x.jpg in Resources */,
+				176261C81B45B8E4005796DD /* compassLED_button_up@2x.png in Resources */,
+				1770034D1B3BD00C00379642 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177003371B3BCFCA00379642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1770031C1B3BCFCA00379642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1770032C1B3BCFCA00379642 /* ViewController.m in Sources */,
+				177003291B3BCFCA00379642 /* AppDelegate.m in Sources */,
+				177003261B3BCFCA00379642 /* main.m in Sources */,
+				1770034C1B3BD00C00379642 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177003351B3BCFCA00379642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177003401B3BCFCA00379642 /* FlashlightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1770033B1B3BCFCA00379642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1770031F1B3BCFCA00379642 /* Flashlight */;
+			targetProxy = 1770033A1B3BCFCA00379642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1770032D1B3BCFCA00379642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1770032E1B3BCFCA00379642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		177003321B3BCFCA00379642 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177003331B3BCFCA00379642 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177003411B3BCFCA00379642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177003421B3BCFCA00379642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177003441B3BCFCA00379642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Flashlight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177003451B3BCFCA00379642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Flashlight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		177003471B3BCFCA00379642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
+			};
+			name = Debug;
+		};
+		177003481B3BCFCA00379642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1770031B1B3BCFCA00379642 /* Build configuration list for PBXProject "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177003411B3BCFCA00379642 /* Debug */,
+				177003421B3BCFCA00379642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177003431B3BCFCA00379642 /* Build configuration list for PBXNativeTarget "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177003441B3BCFCA00379642 /* Debug */,
+				177003451B3BCFCA00379642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177003461B3BCFCA00379642 /* Build configuration list for PBXNativeTarget "FlashlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177003471B3BCFCA00379642 /* Debug */,
+				177003481B3BCFCA00379642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177003181B3BCFCA00379642 /* Project object */;
+}
